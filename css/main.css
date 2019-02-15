@@ -1,0 +1,155 @@
+/*******Base styles******/
+
+
+body {  font-family: 'Roboto', sans-serif;
+        font-size:28px;
+}
+
+
+img { padding-top:35px;
+      padding-right:40px;
+      max-width:60%;
+
+}
+
+
+/*****GRID*****/
+
+.full-width { margin:0 auto;
+              width:1200px;
+}
+
+
+.half-width { float:left;
+              width:600px;
+}
+
+
+.third-width {  float:left;
+                width:400px;
+
+}
+
+/******HEADER STYLES******/
+
+
+header {  background: url('../img/header-image.jpg');
+          background-size:contain;
+          height: 800px;
+}
+
+
+header h1 { font-family: 'Roboto Slab', serif;
+            font-size:60px;
+            margin:0px;
+            padding:50px 50px;
+            text-align:right;
+}
+
+
+header h1 span {  color:#38A8A3;
+                  font-size:70px;
+}
+
+
+nav { float:right;
+      padding:50px 40px;
+}
+
+
+nav ul li { display:inline-block;
+}
+
+
+nav ul li a { color:#7F7451;
+              font-size:30px;
+              padding-left:100px;
+              text-transform:uppercase;
+}
+
+
+/******PORTFOLIO SECTION STYLES*********/
+
+#portfolio {  height:1450px;
+}
+
+
+#portfolio .full-width {  padding-left:30px;
+                          padding-top:150px;
+}
+
+
+#portfolio h2 { color:#ec0abf;
+                font-family: 'Roboto Slab', serif;
+                font-size:40px;
+                padding-bottom:50px;
+                text-align:center;
+}
+
+
+/*********ABOUT SECTION STYLES*********/
+
+#about {background-color:#026C7C;
+        height: 650px;
+}
+
+
+#about .full-width {padding-left:30px;
+                    padding-top:75px;
+}
+
+
+#about h2 { color:#BFAB25;
+            font-family: 'Roboto Slab', serif;
+            font-size:36px;
+            margin-top:10px;
+            text-align:center;
+}
+
+
+#about p {  color:white;
+}
+
+
+/*******CONTACT SECTION STYLES********/
+
+#contact {  height:400px;
+}
+
+
+#contact .full-width {  padding:100px 0;
+}
+
+
+#contact h2 { color:#ec0abf;
+              font-family: 'Roboto Slab', serif;
+              font-size:36px;
+              text-align:center;
+}
+
+
+#contact h3 { padding-left:115px;
+}
+
+
+#contact a {  display:block;
+              text-align:center;
+}
+
+
+#contact ul li {  display:inline-block;
+                  list-style:none;
+                  padding-left: 25px;
+}
+
+
+.icon { width:30px;
+}
+
+
+/*******FOOTER SECTION STYLES********/
+
+footer   {  font-size:18px;
+            padding:100px 0;
+            text-align:center;
+}
