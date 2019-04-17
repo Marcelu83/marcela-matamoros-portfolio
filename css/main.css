@@ -53,7 +53,7 @@ header h1 span {  color:#38A8A3;
 
 
 nav { float:right;
-      padding:50px 40px;
+      padding:60px 40px;
 }
 
 
@@ -62,7 +62,7 @@ nav ul li { display:inline-block;
 
 
 nav ul li a { color:#7F7451;
-              font-size:30px;
+              font-size:20px;
               padding-left:100px;
               text-transform:uppercase;
 }

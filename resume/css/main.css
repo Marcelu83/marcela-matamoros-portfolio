@@ -1,0 +1,177 @@
+/*******Base styles******/
+
+
+body {  font-family: 'Roboto', sans-serif;
+        font-size:25px;
+      }
+
+
+h3 {font-family: 'Roboto Slab', sans-serif;
+    font-size:30px;
+    text-align:center;
+
+
+}
+
+/*****GRID*****/
+
+.full-width { margin:-40px auto;
+              width:1200px;
+
+
+}
+
+
+.half-width { float:left;
+              width:600px;
+}
+
+
+.third-width {  float:left;
+                width:400px;
+
+}
+
+/******HEADER STYLES******/
+
+header {height:800px;
+        background-image:url('../img/hero2.jpg');
+        background-size:auto;
+
+}
+
+header h1{font-family:'Roboto Slab', sans-serif;
+          font-size:65px;
+          padding:60px 0 0;
+          text-align:right;
+          color:#D1BE0B;
+
+}
+
+header h2{font-size:25px;
+          text-align:right;
+          color:white;
+
+
+
+}
+
+nav {float:right;
+    padding:80px 0;
+}
+
+nav ul li {display:inline-block;
+
+
+}
+
+nav ul li a {font-size:16px;
+            text-decoration:none;
+            text-transform:uppercase;
+            color:white;
+            padding-left:20px;
+
+}
+
+/***Intro section styles***/
+
+
+#intro .full-width {padding:150px 0;
+  overflow:hidden;
+
+
+}
+
+
+
+#intro p {
+          line-height:30px;
+          padding-right:80px;
+          width:600px;
+}
+
+
+/***Relevant Experience section styles***/
+
+
+#relevantexperience{background-color:#7B9C79;
+
+}
+
+#relevantexperience .full-width {padding:80px 0;
+                                clear:both;
+}
+
+
+
+/***Additional Experience section styles***/
+
+#additionalexperience .full-width {padding:100px 0;
+                                    clear:both;
+}
+
+#additionalexperience .half-width {padding-top:40px;
+
+
+}
+
+
+#additionalexperience h4 {text-align:center;
+
+}
+
+
+/***Education section***/
+
+#education {background-color: #A47C04;
+
+}
+
+
+#education .full-width {padding:80px 0;
+                                clear:both;
+
+
+                              }
+
+/***Fun Facts section***/
+
+#funfacts .full-width {padding:80px 0;
+
+}
+
+#funfacts .half-width {padding:60px 0;
+
+}
+
+#funfacts p {padding-left:200px;
+            width:300px;
+
+}
+
+/***Contact section***/
+
+#contact {background-color: #7B9C79;
+
+}
+
+
+
+
+#contact .full-width {padding:80px 0;
+                      clear:both;
+
+}
+
+#contact img {width:40px;
+              padding-right:100px;
+
+}
+
+
+#contact ul li {display:inline-block;
+                list-style:none;
+                padding-left:200px;
+
+
+}
